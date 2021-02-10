@@ -11,7 +11,7 @@ int main()
   cout << "How many are females: ";
   cin >> numFemales;
 
-  percentF = (double(numFemales) / numPeople);
+  percentF = (double(numFemales) / numPeople) * 100;
   percentM = (double(numMales) / numPeople) * 100;
 
  cout << "The percentage of females is " << percentF << "%.\n";
